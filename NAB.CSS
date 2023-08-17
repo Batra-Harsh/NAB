@@ -1,0 +1,93 @@
+header
+{
+    display: flex;
+    justify-content: space-between;
+    background-image:linear-gradient(blue, yellow);
+    padding: 10px;
+    align-items: center;
+	border: 2px solid black;
+}
+
+h1
+{
+    margin-left : 25px;
+    color: aliceblue;
+    
+}
+
+header a, footer a, footer p
+{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+header li, footer li
+{
+    display: inline;
+    margin-left: 20px;
+}
+
+header li:last-of-type, footer li:last-child
+{
+    padding-right: 20px;
+}
+
+ul 
+{
+    align-items: center;
+    justify-content: center ;
+}
+
+.Container
+{
+    background-image: linear-gradient(yellow, aqua 90%);
+    padding: 20px;
+    flex: 1;
+    color :black;
+}
+
+.f1
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-image: radial-gradient(blue, aqua 99%);
+}
+
+footer 
+{
+    display: block;
+    background-color: silver;
+	border:5px solid black;
+}
+
+footer h2
+{
+    background-color: black;
+    color:white;
+    margin: 0%;
+    text-align: center;
+}
+body{
+    margin: 0% 10%;
+    display: flex;
+    flex-direction: column;
+    min-height : 100vh;
+    background-color: blueviolet;
+    width: 80%;
+    text-align: justify;
+    font-family: cursive;
+	border: 2px solid #fff000;
+}
+
+img
+{
+    height: 350px;
+    width: 250px;
+}
+
+.gallery
+{
+    display: flex;
+    justify-content: center;
+}
